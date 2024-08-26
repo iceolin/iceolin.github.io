@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&family=Itim&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <section class="section1">
+      <img class="logo" src="logo.png" alt="" />
+      <button onclick="openPage1()" class="btnqmsomos">Quem somos</button>
+      <script>
+        function openPage1() {
+          window.location.href = "quemsomos.html";
+        }
+      </script>
+    </section>
+
+    <section class="section2">
+      <h1 class="titulo">Pizzaria Wuconos</h1>
+      <button onclick="openPage4()" class="btncardapio">Cardápio</button>
+      <script>
+        function openPage4() {
+          window.location.href = "cardapio.html";
+        }
+      </script>
+
+      <img class="imgpizza" src="pizza.png" alt="" />
+      <span class="txtBV">Bem-Vindo ao nosso site! Temos pizzas deliciosas com massas artesanais de todos os melhores sabores possíveis! </span>
+      <button onclick="openPage3()" class="btncadastro">Cadastro</button>
+      <script>
+        function openPage3() {
+          window.location.href = "cadastro.html";
+        }
+      </script>
+      <button onclick="openPage2()" class="btncontato">Contato</button>
+      <script>
+        function openPage2() {
+          window.location.href = "contato.html";
+        }
+      </script>
+    </section>
+  </body>
+</html>
